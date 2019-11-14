@@ -16,6 +16,4 @@ def print_first_directors_movie_titles
     i += 1
   end
   puts list
-  return list
 end
-print_first_directors_movie_titles
