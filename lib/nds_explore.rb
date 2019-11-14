@@ -12,9 +12,7 @@ def print_first_directors_movie_titles
   list = ""
   i = 0
   while i < mov.count do
-    puts i
-    puts mov[i][:title]
-    list = "#{list}\n#{mov[i][:title]}"
+    list.concat(mov[i][:title],"\n")
     i += 1
   end
   return list
