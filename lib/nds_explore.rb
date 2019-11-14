@@ -15,6 +15,7 @@ def print_first_directors_movie_titles
     list.concat(mov[i][:title],"\n")
     i += 1
   end
+  puts list
   return list
 end
 print_first_directors_movie_titles
