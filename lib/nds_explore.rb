@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  spiel = directors_database()[0]
+  mov = directors_database()[0][1]
   list = ""
   i = 0
   while i < spiel.count do
