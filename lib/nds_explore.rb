@@ -8,10 +8,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  mov = directors_database()[0][1]
+  mov = directors_database()[0][:movies]
   list = ""
   i = 0
   while i < spiel.count do
-    spiel[i][]
+    spiel[i][:title]
 end
 pretty_print_nds(directors_database())
