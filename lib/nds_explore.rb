@@ -11,8 +11,8 @@ def print_first_directors_movie_titles
   mov = directors_database()[0][:movies]
   list = ""
   i = 0
-  while i < spiel.count do
-    list = "#{list}/n#{spiel[i][:title]}"
+  while i < mov.count do
+    list = "#{list}/n#{mov[i][:title]}"
     i += 1
   end
   return list
