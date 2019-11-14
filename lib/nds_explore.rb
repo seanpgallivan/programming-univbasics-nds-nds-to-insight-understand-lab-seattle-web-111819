@@ -12,6 +12,5 @@ def print_first_directors_movie_titles
   list = ""
   i = 0
   while i < spiel.count do
-    spiel[i][:title]
+    list = list + spiel[i][:title] + 
 end
-pretty_print_nds(directors_database())
