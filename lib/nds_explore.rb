@@ -12,5 +12,8 @@ def print_first_directors_movie_titles
   list = ""
   i = 0
   while i < spiel.count do
-    list = list + spiel[i][:title] + 
+    list = "#{list}/n#{spiel[i][:title]}"
+    i += 1
+  end
+  return list
 end
